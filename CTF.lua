@@ -49,7 +49,6 @@ end
 --CTF.new(flagTemplate : Instance, flagPositions : {}, teams : {}, maxScore : number) : returns the CTF object itself
 function CTF.new( ... ): ( {} )
     local arguments = {...}
-    print(arguments)
     local flagTemplate = arguments[1]
     local flagPositions = arguments[2]
     local teams = arguments[3]
